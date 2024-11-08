@@ -1,46 +1,47 @@
-.container {
-    background-color: yellow;
-    position: absolute;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+.head {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: yellow;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+}
 
-  }
-  
-  .boxgrün {
-    width: 30px;
-    height: 30px;
-    background-color: green;
-    margin-right: 20px;
-    margin-top: 30px;
-  }
-  
-  .boxblau {
-    background-color: lightblue;
-    width: 400px;
-    height: 300px;
-    padding: 20px;
-    position: absolute;
-    margin-top: 300px;
-  }
-  
-  .right {
-    display: flex;
-    flex-direction: column;
-    width: 150px;
-    padding: 20px;
-  }
-  
-  .brown-box {
-    background-color: brown;
-    width: 100px;
-    height: 50px;
-  }
-  
-  .purple-box {
-    background-color: purple;
-    width: 100px;
-    height: 100px;
-  }
+.boxgrün {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  margin: 20px;
+  border: 1px solid black;
+}
+
+.boxblau {
+  height: 300px;
+  width: 400px;
+  background-color: aqua;
+  margin: 20px;
+  position: absolute;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.boxbraun {
+  height: 100px;
+  width: 100px;
+  right: 0;
+  bottom: 0;
+  background-color: brown;
+  position: absolute;
+  border: 2px solid black;
+}
+
+.boxlila {
+  height: 50px;
+  width: 50px;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: purple;
+  border: 2px solid black;
+}
