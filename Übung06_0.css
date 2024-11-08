@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  }
+  
+  header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .box {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+  }
+  
+  .left {
+    background-color: lightblue;
+    width: 400px;
+    padding: 20px;
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    padding: 20px;
+  }
+  
+  .brown-box {
+    background-color: brown;
+    width: 100px;
+    height: 50px;
+  }
+  
+  .purple-box {
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+  }
