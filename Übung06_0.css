@@ -1,26 +1,29 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-  }
-  
-  header {
     background-color: yellow;
+    position: absolute;
+    height: 100px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: end;
+    align-items: center;
+
   }
   
-  .box {
+  .boxgrün {
     width: 30px;
     height: 30px;
     background-color: green;
+    margin-right: 20px;
+    margin-top: 30px;
   }
   
-  .left {
+  .boxblau {
     background-color: lightblue;
     width: 400px;
+    height: 300px;
     padding: 20px;
+    position: absolute;
+    margin-top: 300px;
   }
   
   .right {
