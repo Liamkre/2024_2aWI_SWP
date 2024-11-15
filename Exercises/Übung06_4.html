@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="cssreset.css">
+
+<style>
+    .menu {
+        background-color: cyan;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .menu-container {
+
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .menu-box {
+        background-color: black;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+    .footer {
+        background-color: violet;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+</style>
+
 </head>
 <body>
-    
+    <div class="menu">
+        <div class="menu-container">
+            <div class="menu-box"></div>
+        </div>
+        <div class="menu-container">
+            <div class="menu-box"></div>
+            <div class="menu-box"></div>
+        </div>
+        <div class="menu-container">
+            <div class="menu-box"></div>
+            <div class="menu-box"></div>
+        </div>
+    </div>
+    <div class="content"></div>
+    <div class="footer"></div>
+
+
 </body>
 </html>
