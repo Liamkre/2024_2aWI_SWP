@@ -1,0 +1,49 @@
+   .boxblau {
+    height: 300px;
+    width: 400px;
+    background-color: aqua;
+    margin: 20px;
+    position: absolute;
+    border: 1px solid black;
+    padding: 20px;
+
+  }
+  
+  .boxgelb {
+    height: 100px;
+    width: 100%;
+    margin-top: 400px;
+    position: absolute;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    border: 1px solid black;
+
+  .boxgrün {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    margin: 130px;
+    border: 1px solid black;
+  }
+
+}
+  .boxbraun {
+    height: 100px;
+    width: 100px;
+    right: 0;
+    bottom: 0;
+    background-color: brown;
+    position: absolute;
+    border: 2px solid black;
+  }
+  
+  .boxlila {
+    height: 50px;
+    width: 50px;
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    background-color: purple;
+    border: 2px solid black;
+  }
