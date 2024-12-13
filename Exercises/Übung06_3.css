@@ -1,0 +1,52 @@
+.boxen {
+    margin: 10px 0 0 50px;
+    display: flex;
+}
+
+.blaubox,
+.gruenbox {
+    position: relative;
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.blaubox {
+    background-color: aqua;
+}
+
+.gruenbox {
+    background-color: green;
+    margin-left: 50px;
+}
+
+.orangebox {
+    background-color: orange;
+    height: 100px;
+    width: 400px;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+
+.graubox,
+.orangebox2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.graubox {
+    height: 250px;
+    width: 250px;
+    background-color: grey;
+    left: 0;
+    bottom: 0;
+}
+
+.orangebox2 {
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+}
