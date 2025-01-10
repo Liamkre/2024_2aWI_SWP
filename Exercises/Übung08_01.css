@@ -7,16 +7,21 @@
     background-color: antiquewhite;
     margin-top: 50px;
     margin-left: 5%;
-    justify-content: center;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .box {
-    justify-content: center;
-    border: solid, 2px, black;
-    height: 50px;
-    width: 50px;
-    margin: 75px;
 
+    border: solid, 2px, black;
+    height: 100px;
+    width: 100px;
+}
+
+.boxes {
+    height: 400px;
+    width: 400px;
+    border: 2px, solid, black;
 
 }
