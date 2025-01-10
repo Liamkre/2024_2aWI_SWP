@@ -4,10 +4,16 @@ let a = 4000;
 let b = 2000;
 let c = b / a;
 
-let s = "Hello World!";
+let s = 100
 
-console.log("Typ der variable c ist: " + typeof c)
-console.log("Wert von der variable a ist:" + c);
+console.log("Der Wert von s ist: " + typeof s);
+console.log("Der Wert von s ist: " + s);
 
-console.log(s);
+
+s = 2
+s = s + "2";
+
+
+console.log("Der Wert von s ist: " + typeof s);
+console.log("Der Wert von s ist: " + s);
 
