@@ -1,0 +1,22 @@
+.Header {
+    width: 90%;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    height: 200px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    margin-left: 5%;
+    justify-content: center;
+    display: flex;
+}
+
+.box {
+    justify-content: center;
+    border: solid, 2px, black;
+    height: 50px;
+    width: 50px;
+    margin: 75px;
+
+
+}
