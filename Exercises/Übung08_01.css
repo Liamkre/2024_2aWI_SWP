@@ -13,15 +13,18 @@
 }
 
 .box {
-
-    border: solid, 2px, black;
+    border: 2px solid black;
     height: 100px;
     width: 100px;
 }
 
 .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     height: 400px;
-    width: 400px;
-    border: 2px, solid, black;
-
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 5%;
+    border: 2px solid black;
 }
