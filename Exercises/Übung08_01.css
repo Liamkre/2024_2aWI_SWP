@@ -26,5 +26,12 @@
     width: 90%;
     margin-top: 50px;
     margin-left: 5%;
+
+}
+
+.boxes .box1 {
+    height: 100%;
+    width: calc(50% - 20px);
     border: 2px solid black;
+    background-color: lightblue;
 }
