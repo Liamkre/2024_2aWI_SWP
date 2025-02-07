@@ -135,3 +135,17 @@ a1 = 10;
 b1 = 20;
 result = a1 + b1;
 console.log("The result is: " + result);
+
+
+
+//loops (Schleifen)
+//for loop
+
+console.log("Hannes");
+console.log("Hannes");
+console.log("Hannes");
+
+
+for (let i = 0; i < 10; i = i + 1) {   // i = i + 1 ist dasselbe wie i++
+    console.log("Hannes");
+}
