@@ -35,7 +35,7 @@ let a1 = 7;
 let b1 = 3;
 
 //addition
-let sum = a1 + b1;
+let summe = a1 + b1;
 
 
 //subtraction
@@ -52,14 +52,6 @@ let power = a1 ** b1;
 
 //expression
 let expression = (a1 + b1) * b1;
-
-
-console.log(sum);
-console.log(difference);
-console.log(quotient);
-console.log(remainder);
-console.log(power);
-console.log(expression);
 
 //value assignment (Werte zuweisen)
 a1 = 23;
@@ -149,3 +141,51 @@ console.log("Hannes");
 for (let i = 0; i < 10; i = i + 1) {   // i = i + 1 ist dasselbe wie i++
     console.log("Hannes");
 }
+
+
+//function
+function summ(n1, n2) {
+    return n1 + n2
+}
+
+
+let n1 = 5;
+let n2 = 10;
+
+let resultSum = n1 * n2;
+
+
+//function kx + d, k=10, d=5
+function linearStraight(x) {
+    return 20 * x + 5
+}
+
+
+//1. keyword "function"
+//2. name of the function we want to declare
+//3. ()
+//4. with the bracket we can hand in parameters to the function
+//5. opening curly brace {
+//6. statements
+//7. optionally a return
+//8. closing curly brace }
+function log(text, repeat) {
+
+    // for loop:
+    //1. declare variable i and initialize it to 1: let i = 1
+    //2. check the conditional expression if it still evaluates to true
+    //3. if the condistion is still true, then execute statements within the curly braces {  }
+    //4. i = i + 1 => i = 1 => i = 1 + 1 => i = 2
+    //5. check the conditial expression if it still evaluates to true
+    //   (i < result), i = 2 and repeat = 10 => 2 < 10 => true
+    for (let i = 1; i < repeat; i++) {
+        console.log(i + ": " + text)
+    }
+    console.log("value i is: " + i)
+}
+
+console.log("value of texs is " + i)
+
+
+log("Hallo Welt", 10);
+log("Hello World", 5);
