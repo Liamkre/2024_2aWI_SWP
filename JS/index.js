@@ -287,4 +287,9 @@ const printNumber = (n) => {
 }
 
 
-numbers.forEach(printNumber)
+numbers.forEach(printNumber);
+
+
+function myonClick() {
+  alert("Wie gehts?")
+}
