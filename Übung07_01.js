@@ -10,4 +10,18 @@ Beispiel mit obiger Eingabe:
 6
 */
 
-let input = "1 2 3 4 5 "
+function sumEvenNumbers(input) {
+    let sum = 0;
+    let numbers = input.split(" ");
+
+    for (let num of numbers) {
+        if (num % 2 === 0) {
+            sum += Number(num);
+        }
+    }
+
+    console.log(sum);
+}
+
+
+sumEvenNumbers("1 2 3 4 5 6"); 
