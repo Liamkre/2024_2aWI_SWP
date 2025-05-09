@@ -1,22 +1,29 @@
-
+function getValues() {
+    let a = document.getElementById("inputA").value;
+    let b = document.getElementById("inputB").value;
+    return [Number(a), Number(b)];
+}
 
 function calculateSum() {
-    console.log("Calculate clicked!")
+    let [a, b] = getValues();
+    document.getElementById("result").innerHTML = a + b;
+}
 
+function calculateSubtract() {
+    let [a, b] = getValues();
+    document.getElementById("result").innerHTML = a - b;
+}
 
-    let inputA = document.getElementById("inputA").value;
-    let inputB = document.getElementById("inputB").value;
+function calculateMultiply() {
+    let [a, b] = getValues();
+    document.getElementById("result").innerHTML = a * b;
+}
 
-    console.log("inputA: " + inputA);
-    console.log("inputB: " + inputB);
-
-    let result = Number(inputA) + Number(inputB);
-
-    console.log(result);
-
-    console.log(typeof inputA);
-    console.log(typeof inputB);
-
-    let resultElement = document.getElementById("result")
-    resultElement.innerHTML = result;
-} 
+function calculateDivide() {
+    let [a, b] = getValues();
+    if (b === 0) {
+        document.getElementById("result").innerHTML = "Fehler: ÷0";
+    } else {
+        document.getElementById("result").innerHTML = a / b;
+    }
+}

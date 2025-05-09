@@ -1,21 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
+<!DOCTYPE html>
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
+    <title>Rechner</title>
+    <link rel="stylesheet" href="Calculator.css">
     <script src="Calculator.js" defer></script>
 </head>
 
 <body>
-    A: <input type="text" id="inputA" value="20">
-    B: <input type="text" id="inputB" value="30">
-    <button id="calculate" onclick="calculateSum()">calculate</button>
-    <div>
-        Result: <span id="result">result</span>
+    <div class="calculator">
+        <div class="top-section">
+            <div class="inputs">
+                <input type="number" id="inputA" value="20">
+                <input type="number" id="inputB" value="30">
+            </div>
+            <div class="operations">
+                <button onclick="calculateSum()">+</button>
+                <button onclick="calculateSubtract()">−</button>
+                <button onclick="calculateMultiply()">×</button>
+                <button onclick="calculateDivide()">÷</button>
+            </div>
+        </div>
+        <div class="result">
+            <span id="result">0</span>
+        </div>
     </div>
 </body>
 
