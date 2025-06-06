@@ -1,4 +1,4 @@
-function generateRandom() {
+function generateRandom() { //erledigt mit Tolunay
     const min = Number(document.getElementById("minValue").value);
     const max = Number(document.getElementById("maxValue").value);
     const output = document.getElementById("output");
